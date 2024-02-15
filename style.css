@@ -11855,6 +11855,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.navbar-brand img {
+  max-width: 100%;
+  height: auto;
+}
+
 nav {
   margin-left: 40px;
 }
@@ -11863,6 +11868,16 @@ nav {
   margin-top: 50px;
   margin-left: 50px;
   font-weight: bold;
+}
+
+label #btn,
+label #cancel {
+  color: black;
+  font-size: 30px;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
 }
 
 .f1 {
@@ -11917,6 +11932,63 @@ nav {
 .image1 {
   margin-top: 50px;
   margin-left: 70px;
+}
+
+.features {
+  font-weight: bold;
+  font-size: xx-large;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .navbar-brand {
+    text-align: center;
+  }
+  .navbar-nav {
+    text-align: center;
+  }
+  .nav-link {
+    margin: 0 10px;
+  }
+  .button1 {
+    margin-right: 0;
+  }
+  .button2, .button3 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .image1 {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+  .t1, .f1 {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+@media (max-width: 991px) {
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+  .t1, .f1 {
+    margin-left: 0;
+    text-align: center;
+  }
+  .button1 {
+    margin-right: 0;
+  }
+  .button2, .button3 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .image1 {
+    margin-top: 20px;
+    margin-left: 0;
+    width: 100%;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
