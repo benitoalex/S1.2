@@ -1,0 +1,67 @@
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+
+$color-principal: #5265E1;
+$color-secundario: #FA5959;
+
+nav{
+    margin-left: 40px;
+}
+.t1{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.f1{
+    margin-left: 50px;
+    color: rgb(154, 154, 154);
+    font-weight: bold;
+}
+.button1{
+    margin-right: 70px;
+    width: 120px;
+    height: 50px;
+    background: $color-secundario;
+    color: white;
+    border-radius: 7px;
+    border: $color-secundario;
+    }
+.button1:hover{
+    background: #b63737;
+    color: white;
+}
+.button2{
+    margin-left: 50px;
+    margin-right: 15px;
+    width: 170px;
+    height: 50px;
+    background: $color-principal;
+    color: white;
+    border-radius: 7px;
+    border: $color-principal;
+}
+.button2:hover{
+    background: #7f8de9;
+}
+.button3:hover{
+    background: #c2c2c2;
+}
+.button3{
+    width: 170px;
+    height: 50px;
+    background: whitesmoke;
+    color: black;
+    border-radius: 7px;
+    border:whitesmoke;
+}
+.image1{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+
+    
+
+
+
+
