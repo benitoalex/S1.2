@@ -4,20 +4,42 @@
 $color-principal: #5265E1;
 $color-secundario: #FA5959;
 
-.navbar-brand img {
-    max-width: 100%;
+.container {
     height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
-nav{
-    margin-left: 40px;
+
+.navbar .nav-item{
+    margin: 20px;
 }
-.t1{
+.t1 {
     margin-top: 50px;
-    margin-left: 50px;
     font-weight: bold;
 }
+
+.t3 h2 {
+    display: flex;
+    text-align: center;
+    font-weight: bold;
+}
+
+.f3 {
+
+    color: rgb(154, 154, 154);
+    font-weight: bold;
+}
+
+.f2 {
+    text-align: center;
+    color: rgb(154, 154, 154);
+    font-weight: bold;
+}
+
 label #btn,
-label #cancel{
+label #cancel {
     color: black;
     font-size: 30px;
     float: right;
@@ -25,26 +47,28 @@ label #cancel{
     margin-right: 40px;
     cursor: pointer;
 }
-.f1{
-    margin-left: 50px;
+
+.f1 {
+
     color: rgb(154, 154, 154);
     font-weight: bold;
 }
-.button1{
-    margin-right: 70px;
+
+.button1 {
     width: 120px;
     height: 50px;
     background: $color-secundario;
     color: white;
     border-radius: 7px;
     border: $color-secundario;
-    }
-.button1:hover{
+}
+
+.button1:hover {
     background: #b63737;
     color: white;
 }
-.button2{
-    margin-left: 50px;
+
+.button2 {
     margin-right: 15px;
     width: 170px;
     height: 50px;
@@ -53,81 +77,136 @@ label #cancel{
     border-radius: 7px;
     border: $color-principal;
 }
-.button2:hover{
+
+.button4 {
+    width: 130px;
+    height: 50px;
+    background: $color-principal;
+    color: white;
+    border-radius: 7px;
+    border: $color-principal;
+}
+
+.button2:hover {
     background: #7f8de9;
 }
-.button3:hover{
+
+.button3:hover {
     background: #c2c2c2;
 }
-.button3{
+
+.button3 {
     width: 170px;
     height: 50px;
     background: whitesmoke;
     color: black;
     border-radius: 7px;
-    border:whitesmoke;
+    border: whitesmoke;
 }
-.image1{
+
+.image1 {
     margin-top: 50px;
     margin-left: 70px;
 }
-.features{
+
+.image2 {
+    display: flex;
+    justify-content: center;
+
+}
+
+.features h2 {
     font-weight: bold;
-    font-size: xx-large;
     display: flex;
     justify-content: center;
 }
 
+.tab1 ul li {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-tabs .nav-link {
+    color: rgb(154, 154, 154);
+    font-weight: bold;
+    padding-right: 1rem;
+    padding-bottom: 2rem;
+    margin: 5px;
+    border: none !important;
+}
+
+.nav-tabs .nav-link:hover {
+    color: rgb(103, 103, 103);
+    border-bottom: 3px solid $color-secundario !important;
+}
+
+.bookmark {
+    margin-left: 70px;
+}
+
 @media (max-width: 767px) {
-    .navbar-brand {
+    .container {
+        padding: 10px;
+    }
+
+    .col-1,
+    .col-3,
+    .col-5,
+    .col-6 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .t1,
+    .t3 h2,
+    .features h2 {
+        margin-top: 30px;
+        font-size: 1.5rem;
         text-align: center;
     }
-    .navbar-nav {
-        text-align: center;
-    }
-    .nav-link {
-        margin: 0 10px;
-    }
-    .button1 {
-        margin-right: 0;
-    }
-    .button2, .button3 {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-    .image1 {
-        margin-top: 20px;
-        margin-left: 0;
-    }
-    .t1, .f1 {
-        margin-left: 0;
-        text-align: center;
-    }
-}
-@media (max-width: 991px) {
-    .row{
-        flex-direction: column;
+
+    .button1,
+    .button2,
+    .button3,
+    .button4 {
         width: 100%;
+        margin: 10px auto;
     }
-    .t1, .f1 {
-        margin-left: 0;
-        text-align: center;
+
+    .image1,
+    .image2 {
+        margin: 20px auto;
+        max-width: 100%;
     }
-    .button1 {
-        margin-right: 0;
-    }
-    .button2, .button3 {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-    .image1 {
-        margin-top: 20px;
-        margin-left: 0;
-        width: 100%;
-        height: auto;
+
+    .bookmark {
+        margin: 20px auto;
     }
 }
 
+@media (min-width: 768px) and (max-width: 1023px) {
+    .container {
+        padding: 20px;
+    }
 
+    .col-1,
+    .col-3,
+    .col-5,
+    .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 
+    .image1,
+    .image2 {
+        margin: 20px auto;
+        max-width: 80%;
+        
+    }
 
+    .bookmark {
+        margin: 20px auto;
+        max-width: 80%;
+    }
+}
