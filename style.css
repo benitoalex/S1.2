@@ -11883,6 +11883,12 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 
+.f4 {
+  text-align: center;
+  color: rgb(154, 154, 154);
+  font-weight: bold;
+}
+
 .f2 {
   text-align: center;
   color: rgb(154, 154, 154);
@@ -11929,7 +11935,16 @@ label #cancel {
 }
 
 .button4 {
-  width: 130px;
+  width: 170px;
+  height: 50px;
+  background: #5265E1;
+  color: white;
+  border-radius: 7px;
+  border: #5265E1;
+}
+
+.button5 {
+  width: 240px;
   height: 50px;
   background: #5265E1;
   color: white;
@@ -11938,6 +11953,14 @@ label #cancel {
 }
 
 .button2:hover {
+  background: #7f8de9;
+}
+
+.button4:hover {
+  background: #7f8de9;
+}
+
+.button5:hover {
   background: #7f8de9;
 }
 
@@ -11970,6 +11993,12 @@ label #cancel {
   justify-content: center;
 }
 
+.download h2, .download .h2 {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
 .tab1 ul li {
   display: flex;
   justify-content: center;
@@ -11993,7 +12022,30 @@ label #cancel {
   margin-left: 70px;
 }
 
-@media (max-width: 767px) {
+.row .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.row .card-body h5, .row .card-body .h5 {
+  font-weight: bold;
+}
+
+.row .card-body p {
+  color: rgb(154, 154, 154);
+  font-weight: bold;
+}
+
+.card-img-top {
+  max-width: 100px;
+  max-height: 100px;
+  margin: auto;
+  margin-top: 1rem;
+}
+
+@media (max-width: 810px) {
   .container {
     padding: 10px;
   }
@@ -12029,7 +12081,7 @@ label #cancel {
     margin: 20px auto;
   }
 }
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 430px) {
   .container {
     padding: 20px;
   }

@@ -27,11 +27,14 @@ $color-secundario: #FA5959;
 }
 
 .f3 {
-
     color: rgb(154, 154, 154);
     font-weight: bold;
 }
-
+.f4 {
+    text-align: center;
+    color: rgb(154, 154, 154);
+    font-weight: bold;
+}
 .f2 {
     text-align: center;
     color: rgb(154, 154, 154);
@@ -79,15 +82,30 @@ label #cancel {
 }
 
 .button4 {
-    width: 130px;
+    width: 170px;
     height: 50px;
     background: $color-principal;
     color: white;
     border-radius: 7px;
     border: $color-principal;
 }
+.button5 {
+    width: 240px;
+    height: 50px;
+    background: $color-principal;
+    color: white;
+    border-radius: 7px;
+    border: $color-principal;
+
+}
 
 .button2:hover {
+    background: #7f8de9;
+}
+.button4:hover {
+    background: #7f8de9;
+}
+.button5:hover {
     background: #7f8de9;
 }
 
@@ -120,6 +138,11 @@ label #cancel {
     display: flex;
     justify-content: center;
 }
+.download h2 {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
 
 .tab1 ul li {
     display: flex;
@@ -144,8 +167,28 @@ label #cancel {
 .bookmark {
     margin-left: 70px;
 }
+.row .card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row .card-body h5{
+    font-weight: bold;
+}
+.row .card-body p{
+    color: rgb(154, 154, 154);
+    font-weight: bold;
+}
+.card-img-top {
+    max-width: 100px;
+    max-height: 100px;
+    margin: auto;
+    margin-top: 1rem;
+    
+}
 
-@media (max-width: 767px) {
+@media (max-width: 810px) {
     .container {
         padding: 10px;
     }
@@ -185,7 +228,7 @@ label #cancel {
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 430px) {
     .container {
         padding: 20px;
     }
