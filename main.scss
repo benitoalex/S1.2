@@ -37,6 +37,11 @@ $color-secundario: #FA5959;
     color: rgb(154, 154, 154);
     font-weight: bold;
 }
+.f5{
+    text-align: center;
+    color: rgb(154, 154, 154);
+    font-weight: bold;
+}
 
 .f2 {
     text-align: center;
@@ -85,7 +90,7 @@ label #cancel {
 }
 
 .button4 {
-    width: 170px;
+    width: 120px;
     height: 50px;
     background: $color-principal;
     color: white;
@@ -100,7 +105,22 @@ label #cancel {
     color: white;
     border-radius: 7px;
     border: $color-principal;
+}
+.button6 {
+    width: 120px;
+    height: 50px;
+    background: $color-principal;
+    color: white;
+    border-radius: 7px;
+    border: $color-principal;
+}
 
+.button6:hover {
+    background: #7f8de9;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
 }
 
 .button2:hover {
@@ -204,6 +224,12 @@ label #cancel {
     border-radius: 5px;
 
 }
+.frequently h2{
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
 
 
 @media (max-width: 810px) {

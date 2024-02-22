@@ -11889,6 +11889,12 @@ textarea.form-control-lg {
   font-weight: bold;
 }
 
+.f5 {
+  text-align: center;
+  color: rgb(154, 154, 154);
+  font-weight: bold;
+}
+
 .f2 {
   text-align: center;
   color: rgb(154, 154, 154);
@@ -11935,7 +11941,7 @@ label #cancel {
 }
 
 .button4 {
-  width: 170px;
+  width: 120px;
   height: 50px;
   background: #5265E1;
   color: white;
@@ -11950,6 +11956,24 @@ label #cancel {
   color: white;
   border-radius: 7px;
   border: #5265E1;
+}
+
+.button6 {
+  width: 120px;
+  height: 50px;
+  background: #5265E1;
+  color: white;
+  border-radius: 7px;
+  border: #5265E1;
+}
+
+.button6:hover {
+  background: #7f8de9;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
 }
 
 .button2:hover {
@@ -12049,6 +12073,12 @@ label #cancel {
   border: none;
   box-shadow: 4px 4px 4px 4px rgb(222, 222, 222);
   border-radius: 5px;
+}
+
+.frequently h2, .frequently .h2 {
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 810px) {
