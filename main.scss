@@ -12,6 +12,10 @@ $color-secundario: #FA5959;
     flex-wrap: wrap;
 }
 
+ #feat1:hover{
+    color: $color-secundario;
+}
+
 
 .navbar .nav-item {
     margin: 20px;
@@ -75,8 +79,9 @@ label #cancel {
 }
 
 .button1:hover {
-    background: #b63737;
-    color: white;
+    background: white;
+    color: $color-secundario;
+    border: 1px solid $color-secundario;
 }
 
 .button2 {
@@ -144,6 +149,11 @@ form p{
     height: 50px;
     background-color: $color-secundario;
 }
+#footbutton:hover{
+    background: white;
+    color: $color-secundario;
+    border: 1px solid $color-secundario;
+}
 .button6:hover {
     background: #7f8de9;
 }
@@ -153,7 +163,9 @@ form p{
 }
 
 .button2:hover {
-    background: #7f8de9;
+    background: white;
+    color: $color-principal;
+    border: 1px solid $color-principal;
 }
 
 .button4:hover {
@@ -161,11 +173,22 @@ form p{
 }
 
 .button5:hover {
-    background: #7f8de9;
+    background: white;
+    color: $color-principal;
+    border: 1px solid $color-principal;
+
+}
+#flush-headingOne:hover{
+    color: $color-secundario;
 }
 
 .button3:hover {
-    background: #c2c2c2;
+    background: white;
+    border: 1px  solid black;
+
+}
+#easy:hover {
+    color: $color-secundario;
 }
 
 .button3 {

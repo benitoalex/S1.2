@@ -11863,6 +11863,10 @@ textarea.form-control-lg {
   flex-wrap: wrap;
 }
 
+#feat1:hover {
+  color: #FA5959;
+}
+
 .navbar .nav-item {
   margin: 20px;
 }
@@ -11926,8 +11930,9 @@ label #cancel {
 }
 
 .button1:hover {
-  background: #b63737;
-  color: white;
+  background: white;
+  color: #FA5959;
+  border: 1px solid #FA5959;
 }
 
 .button2 {
@@ -12001,6 +12006,12 @@ form p {
   background-color: #FA5959;
 }
 
+#footbutton:hover {
+  background: white;
+  color: #FA5959;
+  border: 1px solid #FA5959;
+}
+
 .button6:hover {
   background: #7f8de9;
 }
@@ -12011,7 +12022,9 @@ form p {
 }
 
 .button2:hover {
-  background: #7f8de9;
+  background: white;
+  color: #5265E1;
+  border: 1px solid #5265E1;
 }
 
 .button4:hover {
@@ -12019,11 +12032,22 @@ form p {
 }
 
 .button5:hover {
-  background: #7f8de9;
+  background: white;
+  color: #5265E1;
+  border: 1px solid #5265E1;
+}
+
+#flush-headingOne:hover {
+  color: #FA5959;
 }
 
 .button3:hover {
-  background: #c2c2c2;
+  background: white;
+  border: 1px solid black;
+}
+
+#easy:hover {
+  color: #FA5959;
 }
 
 .button3 {
