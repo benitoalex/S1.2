@@ -12,6 +12,7 @@ $color-secundario: #FA5959;
     flex-wrap: wrap;
 }
 
+
 .navbar .nav-item {
     margin: 20px;
 }
@@ -262,7 +263,23 @@ form p{
     justify-content: start;
 }
 
+#foot2{
+    background: rgb(41, 41, 60);
+    color: white;
+    margin: 0;
+}
 
+#foot2 .nav-link{
+    color: white;
+}
+.iconofac{
+    display: flex;
+    justify-content: end;
+}
+footer * {
+    margin: 0;
+    padding: 0;
+  }
 
 @media (max-width: 810px) {
     .container {

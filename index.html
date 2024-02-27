@@ -398,30 +398,44 @@
             <p>35.000 ALREADY JOINED</p>
             <h2>Stay up-to-date with what we're doing</h2>
             <div class="d-flex flex-column flex-sm-row w-100 gap-2" id="email">
-              <label for="newsletter1" class="visually-hidden">Email address</label>
-              <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
-              <button class="btn btn-primary" id="footbutton" type="button">Contact Us</button>
+              <label for="newsletter1" class="form-label visually-hidden">Email address</label>
+              <input id="newsletter1" type="email" class="form-control" placeholder="Email address" required>
+              <div class="invalid-feedback">
+                Please enter a valid email address.
+              </div>
+              <button class="btn btn-primary" id="footbutton" type="submit">Contact Us</button>
             </div>
           </form>
         </div>
         <div class="col-md-4"></div>
       </div>
-      <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
-        <p>© 2022 Company, Inc. All rights reserved.</p>
-        <ul class="list-unstyled d-flex">
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#twitter"></use>
-              </svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#instagram"></use>
-              </svg></a></li>
-          <li class="ms-3"><a class="link-dark" href="#"><svg class="bi" width="24" height="24">
-                <use xlink:href="#facebook"></use>
-              </svg></a></li>
-        </ul>
-      </div>
+      <nav class="navbar navbar-expand-lg" id="foot2">
+        <a class="navbar-brand" href="#">
+          <img src="/Imagenes/logo-bookmark.svg" width="160" height="24" class="d-inline-block align-top" alt="">
+        </a>
+        <div class="navbar justify-content-start" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item ml-auto">
+              <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link active" aria-current="page" href="#">PRICING</a>
+            </li>
+            <li class="nav-item ml-auto">
+              <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse justify-content-end">
+          <a class="navbar-brand " href="#">
+            <img src="/Imagenes/icon-facebook.svg" width="25" height="24" alt="">
+            <img src="/Imagenes/icon-twitter.svg" width="25" height="24" style="margin: 30px;">
+          </a>
+        </div>
+      </nav>
     </footer>
   </div>
+
 </body>
 
 </html>
